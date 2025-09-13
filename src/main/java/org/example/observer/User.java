@@ -10,6 +10,7 @@ public class User implements Observer {
     @Override
     public void update(String message) {
         // TODO: Print a notification message for this user
+        System.out.println("Notification for " + this.username + ": " + message);
     }
 
     public String getUsername() {
